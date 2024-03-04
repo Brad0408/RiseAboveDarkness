@@ -12,13 +12,15 @@ public class VoidMovement : MonoBehaviour
 
 
     private void Update()
-    {
+    {    
+        //Make the void rise up over time
         transform.position += transform.up * Time.deltaTime * speed;
     }
 
 
     private void OnTriggerEnter2D(Collider2D collision)
-    {
+    {    
+        //Logic if player hits the void, play game over
         if ((collision.gameObject.CompareTag("Player")))
         {
             SceneManager.LoadScene("GameOver");
