@@ -16,7 +16,8 @@ public class LightBallProjectileScript : MonoBehaviour
     private AudioClip darknessDestroySoundEffect;
 
     private void Start()
-    {
+    {    
+        //Get references
         cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
         rb = GetComponent<Rigidbody2D>();
 
@@ -25,6 +26,7 @@ public class LightBallProjectileScript : MonoBehaviour
         Vector3 direction = mousePos - transform.position;
         Vector3 rotation = transform.position - mousePos;
 
+        //Give projectile velocity
         rb.velocity = new Vector2 (direction.x, direction.y).normalized * speed;
 
 
@@ -42,9 +44,12 @@ public class LightBallProjectileScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //If the projectile hits a ball of darkness
         if (collision.gameObject.CompareTag("BallOfDarkness"))
         {
             Debug.Log("Darkenss Hit With Projectile");
+
+            //Destroy both
             Destroy(collision.gameObject);
             Destroy(gameObject);
 
