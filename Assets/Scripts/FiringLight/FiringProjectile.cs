@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering.Universal;
+using UnityEngine.Rendering.Universal;   //Needed to access Unity's 2D light features
 
 public class FiringProjectile : MonoBehaviour
 {
@@ -29,7 +29,8 @@ public class FiringProjectile : MonoBehaviour
     }
 
     private void Update()
-    {
+    {    
+        //Logic to shoot where the mouse is at
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
         Vector3 rotation = mousePos - transform.position;
@@ -40,9 +41,12 @@ public class FiringProjectile : MonoBehaviour
 
         //Debug.Log("intensity" + playerLight.intensity);
 
+        //Checking if player can fire logic
         if (canFire == false)
         {
             timer += Time.deltaTime;
+
+            //Can fire check
             if (timer > timeBetweenFiring && playerLight.intensity > 1.0f)
             {
                 canFire = true;
@@ -53,7 +57,11 @@ public class FiringProjectile : MonoBehaviour
         if (Input.GetMouseButton(0) && canFire)
         {
             canFire = false;
+
+            //Create projectile
             Instantiate(projectile, FirePoint.position, Quaternion.identity);
+
+            //Take Away light values when the player has fired
             playerLight.intensity -= 1.5f;
             playerLight.falloffIntensity += 0.03f;
 
