@@ -10,7 +10,7 @@ public class MusicChange : MonoBehaviour
 
 
 
-
+    //when player overlaps with this box pause current music and play fast music
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
