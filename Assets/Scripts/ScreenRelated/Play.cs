@@ -8,6 +8,7 @@ public class Play : MonoBehaviour
     private AudioSource audioSource;
     private AudioClip mainLevelMusicClip;
 
+    //Call when restart button is pressed if the player dies
     public void Restart()
     {
         //Get the source and pause it
