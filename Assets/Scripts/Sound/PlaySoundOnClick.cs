@@ -6,6 +6,9 @@ public class PlaySoundOnClick : MonoBehaviour
 {
     [SerializeField] private AudioClip clip;
 
+    //Really flawed sound sound system making use of singleton instances... yeah. If two sounds happen at once the latter one overides the first sound
+
+    //Can be called to play sound effect
     public void PlaySoundEffect()
     {
         SoundManager.Instance.PlaySound(clip);
