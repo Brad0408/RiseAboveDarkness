@@ -1,0 +1,556 @@
+fileFormatVersion: 2
+guid: b13226c8c40bcac4b85446a5c9d20cb2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 35
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_0
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1025
+        width: 125
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ab7a24eda18744283689d0b487e9cc
+      internalID: -1974690303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_6
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1012
+        width: 190
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b4fc70d50ec8b44851393c7342b227
+      internalID: 1511429809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_7
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 971
+        width: 288
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a9b3099a6e5894b9d5d3d469dca032
+      internalID: 675781810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1052
+        width: 55
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee56a399248b57941a5f75ef77858fc0
+      internalID: 1548998742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_14
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 653
+        width: 291
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03117b57e8e89414f88e7ceb36a1d204
+      internalID: -2074264906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_17
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 672
+        width: 298
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7f2aafe3c507b45970baa9a698be0c
+      internalID: -435460633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_23
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 704
+        width: 193
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94839d90ec32554419fe3d2ddc988158
+      internalID: -1562706917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_24
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 738
+        width: 175
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62def6a143da4f748bb41b143b1a2052
+      internalID: 1212641041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_35
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 388
+        width: 251
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c092dc591559e014bb34e9033dbd6fb5
+      internalID: 317843705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_36
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 401
+        width: 246
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e151f927fd22bf49b96a25dde6b42b9
+      internalID: 621031521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_38
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 395
+        width: 209
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be818679876d554c8c5e860e62f96a8
+      internalID: 1186007535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_41
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 400
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff63b4f9c4bef54b851f725e26ad145
+      internalID: -776393307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_44
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 480
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0fdce0ba88b054bbd0fc00c2d3f381
+      internalID: -88187894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_53
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 41
+        width: 305
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c6e0a35c006a2428b4e023dc062da0
+      internalID: 1700605006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_61
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 52
+        width: 339
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1635f188bb365b64d9ba04779aa0165b
+      internalID: 1025631054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_67
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 35
+        width: 328
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d83cbcdc9a1e95488259d8898363775
+      internalID: 409149369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_10: -333516459
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_17: -435460633
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_43: -387182673
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_59: 169839815
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_18: 118467895
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_1: 452774142
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_5: -1768821217
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_37: -775507478
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_73: 467885149
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_35: 317843705
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_14: -2074264906
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_16: 1823110918
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_39: 377155784
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_2: 1289397900
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_22: 1985875705
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_49: 841880232
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_95: 1734838192
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_87: 1191053843
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_12: 12536680
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_41: -776393307
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_84: -912312328
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_19: 1639261968
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_7: 675781810
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_23: -1562706917
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_66: -1814361108
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_68: -1937354253
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_44: -88187894
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_81: -2139442670
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_47: 1944959348
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_82: 1181446921
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_70: -1899600840
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_26: 1330064103
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_60: 921401982
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_75: 321056959
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_0: -1974690303
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_51: -655723497
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_25: 1498085239
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_33: 718744204
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_94: -345660023
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_85: -909348507
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_24: 1212641041
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_58: -1417818104
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_30: -476119437
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_78: 2037091018
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_65: 55214232
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_88: -1945654560
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_63: -795569456
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_13: 2075224500
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_32: -398629004
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_79: 1177774849
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_57: 1938867615
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_38: 1186007535
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_77: 111784855
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_53: 1700605006
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_80: -278775444
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_93: 1622778010
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_67: 409149369
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_76: 2068332486
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_92: -54098086
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_90: -618540393
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_15: 359887283
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_86: 115306956
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_34: -1668145102
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_50: -1598100568
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_9: 1548998742
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_28: -392024692
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_56: 1301181303
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_46: -1491847264
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_72: 1578701036
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_91: -1029079727
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_45: 980282339
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_21: 630365748
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_40: 849903900
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_31: -481509213
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_6: 1511429809
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_52: -54174224
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_11: 1157635304
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_48: -1770500927
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_8: -1867578249
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_71: 1297932070
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_3: -895138673
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_74: 918854215
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_27: -1091118629
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_69: -1504138252
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_96: 1957776545
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_29: -446501624
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_62: -323374109
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_89: -512522956
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_42: -295675595
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_20: -619541098
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_4: -291616136
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_54: -229749567
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_61: 1025631054
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_83: -1122278643
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_36: 621031521
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_64: 181359251
+      fire-explosion-special-effect-fx-animation-frames-sprite-sheet-vortex-M6E8H8_55: 464049576
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,4 @@
+repository "GottaBeBright@Brad_staffs@cloud"
+  path "/"
+    br "/main"
+    co "/main"
