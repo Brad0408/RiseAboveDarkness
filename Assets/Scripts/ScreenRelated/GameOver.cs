@@ -12,6 +12,8 @@ public class GameOver : MonoBehaviour
 
     public GameObject wholeMainmenu;
 
+
+    //Function is called when the player clicks on MainMenu button on the game over screen
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");
