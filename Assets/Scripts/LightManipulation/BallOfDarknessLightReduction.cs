@@ -26,13 +26,17 @@ public class BallOfDarknessLightReduction : LightManipulation
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //If player overlaps with ball of darkness
         if (collision.gameObject.CompareTag("Player"))
         {
             Debug.Log("Darkenss Hit");
+
+            //Call Light Reduction Functions from below
             BallReduceInensity(); 
             BallReduceFalloff();
 
 
+            //Sounds
             effectSource = SoundManager.Instance.returnEffectSource();
             effectSource.Pause();
 
@@ -49,12 +53,14 @@ public class BallOfDarknessLightReduction : LightManipulation
 
     void BallReduceInensity()
     {
+        //Takes away players light values from parent class
         //Debug.Log("-2 Intensity");
         playerLight.intensity -= 2.5f;
     }
 
     void BallReduceFalloff()
     {
+        //Takes away players light values from parent class
         //Debug.Log("+0.25 Falloff");
         playerLight.falloffIntensity += 0.10f;
     }
