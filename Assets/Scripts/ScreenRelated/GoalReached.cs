@@ -12,8 +12,11 @@ public class GoalReached : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //If player hits the goal the game is won
+        
         if (collision.gameObject.CompareTag("Player"))
         {
+            //If true load winning screen
             SceneManager.LoadScene("WinningScreen");
             //Debug.Log("Win");
 
