@@ -33,6 +33,7 @@ public class MainMenu : MonoBehaviour
 
     }
 
+    //Call when play is pressed
     public void Play()
     {   
         //Get the source and pause it
@@ -47,11 +48,13 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("MainLevel");
     }
 
+    //Quit button
     public void Quit()
     {
         Application.Quit();
     }
 
+    //Several returns
     public void SetLastMusicImage(Sprite passedMusic)
     {
         MusicButton.image.sprite = passedMusic;
