@@ -8,6 +8,8 @@ public class SoundManager : MonoBehaviour
 
     [SerializeField] private AudioSource musicSource, effectSource;
 
+    //Sound manager has access to all these variables. 
+    //Player can set sounds in editor
     [SerializeField] private AudioClip mainLevelmusic, titleMusic, gameOverMusic, winningMusic, fastMusic, jumpSoundEffect, shootSoundEffect, darknessDestroySound, playerHit, absorbSound;
 
 
