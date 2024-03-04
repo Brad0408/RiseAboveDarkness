@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering.Universal;
+using UnityEngine.Rendering.Universal;   //Needed to access unity 2d light features
 
 public class LightManipulation : MonoBehaviour
 {
-
+    //give access to player to visual see changes to debug
     [SerializeField] private float MaxInensity;
 
     [SerializeField] public float CurrentIntensity;
@@ -42,7 +42,7 @@ public class LightManipulation : MonoBehaviour
 
     private void Update()
     {
-
+        //Call reduce functions
         ReduceInensity();
 
         ///////////////////////////////////////////////////////////////////////////
