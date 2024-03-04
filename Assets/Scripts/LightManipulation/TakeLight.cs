@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
-public class TakeLight : LightManipulation
+public class TakeLight : LightManipulation //Inherit class
 {
     private bool isPlayer;
 
@@ -24,16 +24,17 @@ public class TakeLight : LightManipulation
     }
     private void Update()
     {
-        if (isPlayer)
+        if (isPlayer)   //Set to true if player is overlapping with the light source
         {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                Debug.Log("E pressed");
+            if (Input.GetKeyDown(KeyCode.E))  //Player presses E
+            {    
+                //Call add light functions
+                //Debug.Log("E pressed");
                 AddIntensity();
                 AddFalloff();
                 isPlayer = false;
 
-
+                //Sounds
                 effectSource = SoundManager.Instance.returnEffectSource();
                 effectSource.Pause();
 
@@ -52,7 +53,8 @@ public class TakeLight : LightManipulation
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
-    {
+    {    
+        //Set to true if player is overlapping with light source
         if (collision.gameObject.CompareTag("Player"))
         {
             Debug.Log("Light Hit");
@@ -62,6 +64,7 @@ public class TakeLight : LightManipulation
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+        //Set to false if player is not overlapping
         if (collision.gameObject.CompareTag("Player"))
         {
             Debug.Log("Light Left");
@@ -69,7 +72,7 @@ public class TakeLight : LightManipulation
         }
     }
 
-
+    //Add light values functions
     public void AddIntensity()
     {
         playerLight.intensity += 5.5f;
