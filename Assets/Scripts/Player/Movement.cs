@@ -10,10 +10,11 @@ public class Movement : MonoBehaviour
     public bool InputEnabled = true;
 
 
-
+    //make editor accessible
     [SerializeField] private float speed;
     [SerializeField] private float jumpspeed;
 
+    //init variables
     protected bool facingRight = true;
     protected bool jumped;
 
@@ -44,7 +45,8 @@ public class Movement : MonoBehaviour
     public GameObject wholeMainmenu;
 
     void Awake()
-    {
+    {    
+        //Init main refences
         rb = GetComponent<Rigidbody2D>();
         PlayerSprite = GetComponentInChildren<SpriteRenderer>();
         playerLight = GetComponentInChildren<Light2D>();
@@ -61,6 +63,7 @@ public class Movement : MonoBehaviour
 
     }
 
+    //Fixed update used to fix player clipping through ground bug
     void FixedUpdate()
     {
         //Move Character
@@ -148,7 +151,7 @@ public class Movement : MonoBehaviour
             InputEnabled = true;
         }
 
-
+        //Load main menu
         if (Input.GetKeyDown(KeyCode.M))
         {
 
@@ -221,6 +224,7 @@ public class Movement : MonoBehaviour
         }
     }
 
+    //grounded check
     bool IsGrounded()
     {
         Vector2 position = transform.position;
@@ -228,8 +232,11 @@ public class Movement : MonoBehaviour
         float distance = 0.55f;
 
         //0.55f
+        
 
         Debug.DrawRay(position, direction * 1f, Color.green);
+
+        //Casts a ray down to check if the player is grounded
         RaycastHit2D hit = Physics2D.Raycast(position, direction, distance, groundLayer);
         if (hit.collider != null)
         {
