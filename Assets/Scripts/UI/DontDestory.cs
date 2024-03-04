@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class DontDestory : MonoBehaviour
 {
+
+    //Used to keep features across different levels
+
     public static DontDestory Instance;
 
     public GameObject WholeCanvas;
