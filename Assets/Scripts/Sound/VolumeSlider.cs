@@ -7,6 +7,7 @@ public class VolumeSlider : MonoBehaviour
 {
     [SerializeField] private Slider slider;
 
+    //Slider effects all instances volume
     void Start()
     {
         SoundManager.Instance.AdjustMasterVolume(slider.value);
