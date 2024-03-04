@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class ToggleAudio : MonoBehaviour
 {
+    //For toggle audio and sounds buttons
+    
     [SerializeField] private bool toggleMusic, toggleEffects;
     [SerializeField] private Image image;
 
