@@ -9,7 +9,7 @@ public class BackGroundScroll : MonoBehaviour
     [SerializeField] private float xSpeed, ySpeed;
 
 
-    // Update is called once per frame
+    // Makes BG of main menu scroll
     void Update()
     {
         BG.uvRect = new Rect(BG.uvRect.position + new Vector2(xSpeed, ySpeed) * Time.deltaTime, BG.uvRect.size);
