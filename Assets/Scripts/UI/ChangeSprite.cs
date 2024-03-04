@@ -13,7 +13,8 @@ public class ChangeSprite : MonoBehaviour
         soundOnImage = button.image.sprite;
     }
     public void ChangeImage()
-    {
+    {    
+        //Changes the sprite of the toggle audio button if they are clicked to a red version for mute or a green sprite if toggled back on
         if (Clicked)
         {
             button.image.sprite = muteButtonImage;
