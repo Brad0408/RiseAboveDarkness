@@ -2,6 +2,6 @@
 
 Rise above darkness is a 2D fast paced platformer, where the player must use their light to help with platforming to reach the goal at the top
 
-For C# scripts go to - Assets -> Scripts 
+For C# scripts go to - Assets -> Scripts or (https://tinyurl.com/bdevpz9e)
 
 Playable version download here - https://brad-0408.itch.io/rise-above-darkness
