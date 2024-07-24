@@ -12,7 +12,7 @@ Playable version download here - https://brad-0408.itch.io/rise-above-darkness
 
 ## Gameplay
 
-<ins> Here is some gameplay below ! </ins>
+<ins> Here is some gameplay below - Click still image! </ins>
 
 [![RiseAbove](https://i.ytimg.com/vi/j-Pmh-WxQ6k/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCsgZShDMA8=&amp;rs=AOn4CLBoEN_VaxXeQ-MD11uwL8KJXxR1mA)](https://www.youtube.com/watch?v=j-Pmh-WxQ6k)
 
